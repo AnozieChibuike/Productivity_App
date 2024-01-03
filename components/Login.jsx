@@ -23,7 +23,7 @@ export default Login = ({ navigation }) => {
         <View style={{ marginTop: 20 }}>
           <TouchableOpacity
             style={[styles.button, styles.button1]}
-            onPress={() => {navigation.navigate('Home')}}
+            onPress={() => {navigation.navigate('Dashboard')}}
           >
             <Text style={styles.buttonText}>Sign in with Email</Text>
           </TouchableOpacity>

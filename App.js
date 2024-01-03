@@ -4,7 +4,7 @@ import {NavigationContainer} from '@react-navigation/native'
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import Login from './components/Login';
-import Home from './components/Home'
+import Dashboarrd from './components/Dashboarrd';
 const Stack = createNativeStackNavigator()
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Login" component={Login} options={{headerShown: false}} />
-        <Stack.Screen name="Home" component={Home} options={{headerShown: false,gestureEnabled: false}} />
+        <Stack.Screen name="Dashboard" component={Dashboarrd} options={{headerShown: false,gestureEnabled: false}} />
       </Stack.Navigator>
     </NavigationContainer>        
     <StatusBar hidden={true} />
