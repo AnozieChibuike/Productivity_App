@@ -1,6 +1,6 @@
 # productivity App UI 
 
-## Demo
+## Demo Pictures
 
 <img src="/Demo/IMG_6006.png" alt="Demo_Picture" />
 <br>
